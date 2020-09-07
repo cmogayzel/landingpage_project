@@ -1,0 +1,15 @@
+body {
+    background: blue;
+}
+
+#hello {
+    height: 400px;
+    width: 100%;
+    background: yellow;
+}
+
+.second {
+    height: 400px;
+    width: 100%;
+    background-color: violet;
+}
