@@ -1,15 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
 body {
-    background: blue;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background: #333333;
+    color: white;
+    height: 100vh;
+    line-height: 1.6;
+    overflow: hidden;
 }
 
-#hello {
-    height: 400px;
-    width: 100%;
-    background: yellow;
+.container {
+ width: 100%;
+ height: 100%;
 }
 
-.second {
-    height: 1200px;
-    width: 100%;
-    background-color: violet;
-}
