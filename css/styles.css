@@ -74,6 +74,12 @@ p {
     width: 100%;
 }
 
+#blog {
+    background: url('../images/philippine_island.jpg') no-repeat center center/cover;
+    display: inline-block;
+    width: 100%;
+}
+
 #contact {
     background: url('../images/Business_Class.jpeg') no-repeat center center/cover;
     ;
@@ -96,6 +102,13 @@ p {
         background-size: 150px;
         height: 640px;
         width: 340px;
+    }
+    #about {
+        background: url('../images/philippine_island.jpg') no-repeat center center/cover;
+        display: inline-block;
+        background-size: 50px;
+        height: 640px;
+        width: 360px;
     }
     #about {
         background: url('../images/Hong_Kong-Harbor.jpeg') no-repeat center center/cover;
