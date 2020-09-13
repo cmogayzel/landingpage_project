@@ -80,3 +80,35 @@ p {
     display: inline-block;
     width: 100%;
 }
+
+@media screen and (max-width: 600px) {
+    p {
+        color: white;
+        padding-top: 45%;
+        text-align: center;
+        font-size: 22px;
+        line-height: 1.9vh;
+        justify-content: center;
+    }
+    #home {
+        background: url('../images/HK_Disney.jpeg') no-repeat center center/cover;
+        display: inline-block;
+        background-size: 150px;
+        height: 640px;
+        width: 340px;
+    }
+    #about {
+        background: url('../images/Hong_Kong-Harbor.jpeg') no-repeat center center/cover;
+        display: inline-block;
+        background-size: 50px;
+        height: 640px;
+        width: 360px;
+    }
+    #contact {
+        background: url('../images/Business_Class.jpeg') no-repeat center center/cover;
+        display: inline-block;
+        background-size: 150px;
+        height: 640px;
+        width: 360px;
+    }
+}
