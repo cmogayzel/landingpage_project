@@ -1,3 +1,4 @@
+/* JavaScript for scrolling to specific href in HTML. */
 $('.nav a').on('click', function(e) {
     if (this.hash !== "") {
         e.preventDefault();
@@ -6,7 +7,7 @@ $('.nav a').on('click', function(e) {
 
         $('html, body')
             .animate({
-                scrollTOp: $(has).offset().scrollTOp
+                scrollTop: $(has).offset().scrollTop
             }, 900);
     }
 });
