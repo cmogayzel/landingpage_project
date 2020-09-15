@@ -1,4 +1,4 @@
-/* JavaScript for scrolling to specific href in HTML. */
+/*
 $('.nav a').on('click', function(e) {
     if (this.hash !== "") {
         e.preventDefault();
@@ -10,8 +10,22 @@ $('.nav a').on('click', function(e) {
                 scrollTop: $(has).offset().scrollTop
             }, 900);
     }
-});
+}); */
 
-document.getElementById('myButton').addEventListener('click', function() {
+
+/* document.getElementById('myButton').addEventListener('click', function() {
     console.log("Hello,Chuck");
-})
+}) */
+/*
+const myEvent = document.getElementById("myButton");
+
+document.addEventListener('click', callEvent);
+
+*/
+
+function callEvent() {
+    alert("Hello");
+    console.log("Hello, Chuck");
+} 
+
+document.getElementById('myButton').addEventListener('click', callEvent);
