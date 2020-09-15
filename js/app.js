@@ -12,3 +12,6 @@ $('.nav a').on('click', function(e) {
     }
 });
 
+document.getElementById('myButton').addEventListener('click', function() {
+    console.log("Hello,Chuck");
+})
