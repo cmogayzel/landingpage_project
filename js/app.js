@@ -1,4 +1,4 @@
-/*
+
 $('.nav a').on('click', function(e) {
     if (this.hash !== "") {
         e.preventDefault();
@@ -10,7 +10,7 @@ $('.nav a').on('click', function(e) {
                 scrollTop: $(has).offset().scrollTop
             }, 900);
     }
-}); */
+}); 
 
 
 /* document.getElementById('myButton').addEventListener('click', function() {
