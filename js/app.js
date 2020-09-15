@@ -13,15 +13,6 @@ $('.nav a').on('click', function(e) {
 }); 
 
 
-/* document.getElementById('myButton').addEventListener('click', function() {
-    console.log("Hello,Chuck");
-}) */
-/*
-const myEvent = document.getElementById("myButton");
-
-document.addEventListener('click', callEvent);
-
-*/
 document.getElementById('myButton').addEventListener('click', callEvent);
 
 
