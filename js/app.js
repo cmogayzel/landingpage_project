@@ -22,10 +22,10 @@ const myEvent = document.getElementById("myButton");
 document.addEventListener('click', callEvent);
 
 */
+document.getElementById('myButton').addEventListener('click', callEvent);
+
 
 function callEvent() {
-    alert("Hello");
+   
     console.log("Hello, Chuck");
 } 
-
-document.getElementById('myButton').addEventListener('click', callEvent);
