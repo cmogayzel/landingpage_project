@@ -1,3 +1,11 @@
+function printMessage(msg) {
+    var messageDom = document.getElementById('message');
+
+    messageDom.innerHTML += ('<br>' + msg + '<br>');
+
+}
+
+printMessage("hello, Chuck");
 
 $('.nav a').on('click', function(e) {
     if (this.hash !== "") {
