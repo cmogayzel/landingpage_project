@@ -1,11 +1,15 @@
+/*
 function printMessage(msg) {
     var messageDom = document.getElementById('message');
 
     messageDom.innerHTML += ('<br>' + msg + '<br>');
 
-}
+} 
 
 printMessage("hello, Chuck");
+ */
+
+
 
 $('.nav a').on('click', function(e) {
     if (this.hash !== "") {
@@ -20,11 +24,21 @@ $('.nav a').on('click', function(e) {
     }
 }); 
 
+$(document).ready(function() {
 
-document.getElementById('myButton').addEventListener('click', callEvent);
+    $('nav ul li a').click(function() {
 
+        $('li a').removeClass("selected");
 
+        $(this).addClass("selected");
+
+    });
+});
+
+// document.getElementById('myButton').addEventListener('click', callEvent);
+
+/*
 function callEvent() {
    
     console.log("Hello, Chuck");
-} 
+} */
