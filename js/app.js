@@ -24,16 +24,13 @@ $('.nav a').on('click', function(e) {
     }
 }); 
 
-$(document).ready(function() {
-
+$(document).ready(function(){
     $('nav ul li a').click(function() {
-
-        $('li a').removeClass("selected");
-
-        $(this).addClass("selected");
-
+        $('li a').removeClass("active");
+        $(this).addClass("active");
     });
 });
+
 
 // document.getElementById('myButton').addEventListener('click', callEvent);
 
