@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <ul id="navmenu">
+
+        </ul>
+
+        <script>
+            var myMenu = document.getElementById("navmenu");
+            let menuList = ['Home', 'About','Travel','Contact'];
+            menuList.forEach(function(item,index,array) {
+               // console.log(item);
+               myMenu.insertAdjacentHTML('beforeend', '<li><a href="#"' + item + '>' + item + '</a></li>');
+            })
+           
+        </script>
+    </body>
+</html>
