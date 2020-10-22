@@ -40,11 +40,11 @@ a {
 }
 
 a:hover {
-    color: red;
+    color: rgb(51, 153, 255)
 }
 
-a:active {
-  color: blue;  
+ul li.active a {
+    background: rgba(192, 192, 192, 0.6);
 }
 
 div {
